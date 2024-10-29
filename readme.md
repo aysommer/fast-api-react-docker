@@ -30,3 +30,7 @@ python -m venv venv
 ```
 pip freeze > requirement.txt
 ```
+3. Запуск сервера руками
+```
+uvicorn main:app --reload --port=8000 --host=0.0.0.0
+```
